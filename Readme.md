@@ -3,8 +3,6 @@
 - My main programming languages are Go, Rust, Kotlin and TypeScript
 - Furthermore I am using a ton of different frameworks for my projects
 
-## Projects
-- Most of my projects are not published on GitHub.
 
 **GitHub Stats:**
 
