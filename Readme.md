@@ -9,4 +9,3 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=MathisBurger&show_icons=true&theme=tokyonight">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathisBurger&theme=tokyonight&layout=compact&hide=css"  height="200" />
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=MathisBurger&theme=tokyonight" />
