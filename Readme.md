@@ -6,4 +6,4 @@
 
 **GitHub Stats:**
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathisBurger&theme=tokyonight&layout=compact&hide=css"  height="200" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathisBurger&theme=tokyonight&layout=compact&hide=css&exclude_repo=ws23-contest,ss24-mediaplayer,ws23-24-java"  height="200" />
