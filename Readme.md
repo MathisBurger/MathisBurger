@@ -29,7 +29,7 @@
 
 **Currently learning:**<br>
 <img alt="AWS" src="media/aws.svg" height="30" /> &nbsp;&nbsp;
-<img alt="gcloud" src="media/gcloud.png" height="30" /> &nbsp;&nbsp;
+<img alt="gcloud" src="media/cloud-run.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Terraform" src="media/terraform.svg" height="30" /> &nbsp;&nbsp;
 
 **GitHub Stats:**
