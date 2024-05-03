@@ -14,8 +14,9 @@
 <img alt="React" src="media/react.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Kotlin" src="media/kotlin.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Quarkus" src="media/quarkus.png" height="30" /> &nbsp;&nbsp;
-<img alt="Symfony" src="media/symfony.jpg" height="30" /> &nbsp;&nbsp;
-<img alt="Swift" src="media/swift.jpg" height="30" /> &nbsp;&nbsp;
+<img alt="Symfony" src="media/symfony.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Swift" src="media/swift.svg" height="30" /> &nbsp;&nbsp;
+<img alt="dotnet" src="media/dotnet.svg" height="30" /> &nbsp;&nbsp;
 
 
 **Tools:**<br>
@@ -28,15 +29,8 @@
 
 **Currently learning:**<br>
 <img alt="AWS" src="media/aws.svg" height="30" /> &nbsp;&nbsp;
+<img alt="gcloud" src="media/gcloud.png" height="30" /> &nbsp;&nbsp;
 <img alt="Terraform" src="media/terraform.svg" height="30" /> &nbsp;&nbsp;
-
-**Already used but no experience worth mentioning:**<br>
-<img alt="dotnet" src="media/dotnet.svg" height="30" /> &nbsp;&nbsp;
-<img alt="csharp" src="media/csharp.svg" height="30" /> &nbsp;&nbsp;
-<img alt="angular" src="media/angular.svg" height="30" /> &nbsp;&nbsp;
-<img alt="csharp" src="media/dart.svg" height="30" /> &nbsp;&nbsp;
-<img alt="csharp" src="media/flutter.svg" height="30" /> &nbsp;&nbsp;
-<img alt="csharp" src="media/elixir.svg" height="30" /> &nbsp;&nbsp;
 
 **GitHub Stats:**
 
