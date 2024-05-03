@@ -7,6 +7,15 @@
 ![Age - 19](https://img.shields.io/badge/Age-19-important?style=for-the-badge)
 ![Profession - BIS student @ AUDI](https://img.shields.io/badge/Profession-BIS_student_@_AUDI-blueviolet?style=for-the-badge)
 
+**Languages and Frameworks:**
+<img alt="Go" src="media/stack/go.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Rust" src="media/stack/rust.svg" height="30" /> &nbsp;&nbsp;
+<img alt="TypeScript" src="media/stack/typescript.svg" height="30" /> &nbsp;&nbsp;
+<img alt="React" src="media/stack/react.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Quarkus" src="media/stack/quarkus.svg" height="30" /> &nbsp;&nbsp;
+<img alt="PHP" src="media/stack/php.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Symfony" src="media/stack/symfony.svg" height="30" /> &nbsp;&nbsp;
+
 **GitHub Stats:**
 
 <div style="display:flex; flex-direction:row;">
