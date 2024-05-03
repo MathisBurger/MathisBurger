@@ -13,3 +13,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=MathisBurger&theme=tokyonight&layout=compact&hide=css" height="200" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MathisBurger&theme=tokyonight&layout=compact&hide=css&exclude_repo=ws23-contest,ss24-mediaplayer,ws23-24-java,mui-wrapped-components,advanced-portfolio-tracker,SoundboardServer,wuelstephan-web,time-dependent-quotes,gma3-osc,linkedin-login-bypass"  height="200" />
 </div>
+
+<div style="display:flex; flex-direction:row;">
+  <img src="https://api.githubtrends.io/user/svg/MathisBurger/langs?time_range=one_year&theme=dark" />
+  <img src="https://api.githubtrends.io/user/svg/MathisBurger/repos?time_range=one_year&group=other&theme=dark" />
+</div>
