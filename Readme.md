@@ -7,14 +7,36 @@
 ![Age - 19](https://img.shields.io/badge/Age-19-important?style=for-the-badge)
 ![Profession - BIS student @ AUDI](https://img.shields.io/badge/Profession-BIS_student_@_AUDI-blueviolet?style=for-the-badge)
 
-**Languages and Frameworks:**
-<img alt="Go" src="media/stack/go.svg" height="30" /> &nbsp;&nbsp;
-<img alt="Rust" src="media/stack/rust.svg" height="30" /> &nbsp;&nbsp;
-<img alt="TypeScript" src="media/stack/typescript.svg" height="30" /> &nbsp;&nbsp;
-<img alt="React" src="media/stack/react.svg" height="30" /> &nbsp;&nbsp;
-<img alt="Quarkus" src="media/stack/quarkus.svg" height="30" /> &nbsp;&nbsp;
-<img alt="PHP" src="media/stack/php.svg" height="30" /> &nbsp;&nbsp;
-<img alt="Symfony" src="media/stack/symfony.svg" height="30" /> &nbsp;&nbsp;
+**Main Languages and Frameworks:**<br>
+<img alt="Go" src="media/go.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Rust" src="media/rust.svg" height="30" /> &nbsp;&nbsp;
+<img alt="TypeScript" src="media/typescript.svg" height="30" /> &nbsp;&nbsp;
+<img alt="React" src="media/react.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Kotlin" src="media/kotlin.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Quarkus" src="media/quarkus.png" height="30" /> &nbsp;&nbsp;
+<img alt="Symfony" src="media/symfony.jpg" height="30" /> &nbsp;&nbsp;
+<img alt="Swift" src="media/swift.jpg" height="30" /> &nbsp;&nbsp;
+
+
+**Tools:**<br>
+<img alt="Docker" src="media/docker.svg" height="30" /> &nbsp;&nbsp;
+<img alt="GH Actions" src="media/actions.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Postgres" src="media/postgres.svg" height="30" /> &nbsp;&nbsp;
+<img alt="MariaDB" src="media/mariadb.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Jira" src="media/jira.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Linux" src="media/linux.svg" height="30" /> &nbsp;&nbsp;
+
+**Currently learning:**<br>
+<img alt="AWS" src="media/aws.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Terraform" src="media/terraform.svg" height="30" /> &nbsp;&nbsp;
+
+**Already used but no experience worth mentioning:**<br>
+<img alt="dotnet" src="media/dotnet.svg" height="30" /> &nbsp;&nbsp;
+<img alt="csharp" src="media/csharp.svg" height="30" /> &nbsp;&nbsp;
+<img alt="angular" src="media/angular.svg" height="30" /> &nbsp;&nbsp;
+<img alt="csharp" src="media/dart.svg" height="30" /> &nbsp;&nbsp;
+<img alt="csharp" src="media/flutter.svg" height="30" /> &nbsp;&nbsp;
+<img alt="csharp" src="media/elixir.svg" height="30" /> &nbsp;&nbsp;
 
 **GitHub Stats:**
 
