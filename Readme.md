@@ -5,7 +5,7 @@
 
 ![Name - Mathis](https://img.shields.io/badge/Name-Mathis-ff69b4?style=for-the-badge)
 ![Age - 19](https://img.shields.io/badge/Age-19-important?style=for-the-badge)
-![Profession - dual BIS student @ AUDI](https://img.shields.io/badge/Profession-Dual_BIS_student_@_AUDI-blueviolet?style=for-the-badge)
+![Profession - BIS student @ AUDI](https://img.shields.io/badge/Profession-BIS_student_@_AUDI-blueviolet?style=for-the-badge)
 
 **GitHub Stats:**
 
