@@ -1,5 +1,5 @@
 ## About me
-- I am Mathis Burger, I am 19 years old.
+- I am Mathis Burger, I am 20 years old.
 - My main programming languages are Go, Rust, TypeScript and PHP
 - Furthermore I am using a ton of different frameworks for my projects
 
