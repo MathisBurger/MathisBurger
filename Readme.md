@@ -1,6 +1,6 @@
 ## About me
 - I am Mathis Burger, I am 20 years old.
-- My main programming languages are Go, Rust, TypeScript and PHP
+- My main programming languages are Rust, TypeScript and PHP
 - Furthermore I am using a ton of different frameworks for my projects
 
 ![Name - Mathis](https://img.shields.io/badge/Name-Mathis-ff69b4?style=for-the-badge)
@@ -8,15 +8,14 @@
 ![Profession - BIS student @ AUDI](https://img.shields.io/badge/Profession-BIS_student_@_AUDI-blueviolet?style=for-the-badge)
 
 **Main Languages and Frameworks:**<br>
-<img alt="Go" src="media/go.svg" height="30" /> &nbsp;&nbsp;
+
 <img alt="Rust" src="media/rust.svg" height="30" /> &nbsp;&nbsp;
 <img alt="TypeScript" src="media/typescript.svg" height="30" /> &nbsp;&nbsp;
 <img alt="React" src="media/react.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Kotlin" src="media/kotlin.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Quarkus" src="media/quarkus.png" height="30" /> &nbsp;&nbsp;
 <img alt="Symfony" src="media/symfony.svg" height="30" /> &nbsp;&nbsp;
-<img alt="Swift" src="media/swift.svg" height="30" /> &nbsp;&nbsp;
-<img alt="dotnet" src="media/dotnet.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Go" src="media/go.svg" height="30" /> &nbsp;&nbsp;
 
 
 **Tools:**<br>
@@ -43,3 +42,4 @@
   <img src="https://api.githubtrends.io/user/svg/MathisBurger/langs?time_range=one_year&theme=dark" />
   <img src="https://api.githubtrends.io/user/svg/MathisBurger/repos?time_range=one_year&group=other&theme=dark" />
 </div>
+
