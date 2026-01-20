@@ -15,6 +15,8 @@
 <img alt="Kotlin" src="media/kotlin.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Quarkus" src="media/quarkus.png" height="30" /> &nbsp;&nbsp;
 <img alt="Symfony" src="media/symfony.svg" height="30" /> &nbsp;&nbsp;
+<img alt="Java" src="media/java.png" height="30" /> &nbsp;&nbsp;
+<img alt="Spring Boot" src="media/spring-boot.svg" height="30" /> &nbsp;&nbsp;
 <img alt="Go" src="media/go.svg" height="30" /> &nbsp;&nbsp;
 
 
@@ -42,4 +44,5 @@
   <img src="https://api.githubtrends.io/user/svg/MathisBurger/langs?time_range=one_year&theme=dark" />
   <img src="https://api.githubtrends.io/user/svg/MathisBurger/repos?time_range=one_year&group=other&theme=dark" />
 </div>
+
 
