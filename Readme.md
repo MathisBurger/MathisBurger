@@ -40,9 +40,4 @@
   <img src="profile/top-langs.svg" height="200" />
 </div>
 
-<div style="display:flex; flex-direction:row;">
-  <img src="https://api.githubtrends.io/user/svg/MathisBurger/langs?time_range=one_year&theme=dark" />
-  <img src="https://api.githubtrends.io/user/svg/MathisBurger/repos?time_range=one_year&group=other&theme=dark" />
-</div>
-
 
