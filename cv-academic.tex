@@ -1,0 +1,182 @@
+\documentclass[11pt]{article}
+\usepackage{iftex}
+
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \IfFileExists{dejavu.sty}{\usepackage{dejavu}\renewcommand{\familydefault}{\rmdefault}}{}
+\else
+  \usepackage{fontspec}
+  \setmainfont{DejaVu Serif}[Scale=0.95]
+\fi
+
+\usepackage[a4paper, left=1.4cm, right=1.6cm, top=1.0cm, bottom=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\definecolor{linkblue}{HTML}{0563C1}
+\newlength{\cvdatewidth}\setlength{\cvdatewidth}{2.05cm}
+\newlength{\cvdategap}\setlength{\cvdategap}{0.35cm}
+\newlength{\cvlabelwidth}\setlength{\cvlabelwidth}{3.3cm}
+\newcommand{\cvnamesize}{\fontsize{26}{30}\selectfont}
+\newcommand{\cvsectionsize}{\fontsize{14}{17}\selectfont}
+\newcommand{\cvsectionbefore}{14pt}
+\newcommand{\cvsectionafter}{8pt}
+\newcommand{\cventrygap}{8pt}
+
+\newcommand{\cvlink}[2]{\href{#1}{\textcolor{linkblue}{\underline{#2}}}}
+\newcommand{\cvheader}[6]{%
+  \begin{center}
+    {\cvnamesize\bfseries #1}\\[1pt]
+    \cvlink{https://#2}{#2} $|$ \cvlink{https://#3}{#3} $|$ \cvlink{mailto:#4}{#4}\\
+    #5 $|$ #6
+  \end{center}\vspace{-4pt}}
+
+% Highlights details that still need to be filled in
+\newcommand{\tbd}[1]{\textcolor{red}{[#1]}}
+
+\newcommand{\cvsection}[1]{%
+  \par\vspace{\cvsectionbefore}%
+  {\cvsectionsize\bfseries\MakeUppercase{#1}}\par
+  \vspace{\cvsectionafter}}
+
+\newlist{cvitems}{itemize}{1}
+\setlist[cvitems]{label=-, leftmargin=0.95cm, labelsep=0.5cm,
+                  itemsep=1pt, topsep=1pt, parsep=0pt, partopsep=0pt}
+
+\newcommand{\cventry}[4]{%
+  \par\noindent
+  \begin{minipage}[t]{\cvdatewidth}\raggedright #1\end{minipage}%
+  \hspace{\cvdategap}%
+  \begin{minipage}[t]{\linewidth-\cvdatewidth-\cvdategap}\raggedright
+    \textbf{#2}\if\relax\detokenize{#3}\relax\else\ #3\fi
+    \if\relax\detokenize{#4}\relax\else
+      \begin{cvitems} #4 \end{cvitems}%
+    \fi
+  \end{minipage}\par\vspace{\cventrygap}}
+
+\newcommand{\cvskill}[2]{%
+  \par\noindent
+  \begin{minipage}[t]{\cvlabelwidth}\raggedright\textbf{#1}\end{minipage}%
+  \begin{minipage}[t]{\linewidth-\cvlabelwidth}\raggedright #2\end{minipage}%
+  \par\vspace{3pt}}
+
+
+% =====================================================================
+\begin{document}
+
+\cvheader{Mathis Burger}
+         {mathis-burger.de}
+         {github.com/MathisBurger}
+         {kontakt@mathis-burger.de}
+         {+49 1523 2052626}
+         {DE-85055 Ingolstadt}
+
+\cvsection{Education}
+
+\cventry{10/2023 -- 02/2027}{Technische Hochschule Ingolstadt}
+  {B.Sc. Business Information Systems (Wirtschaftsinformatik)}
+  {\item Current average: 1.2 (German scale, 1.0 = best)
+   \item Thesis (expected 01/2027): \textit{Design and Prototypical Implementation of a Feature
+         Model-Based Application for Modeling and SAT-Based Analysis of
+         Automotive Offer Structures} (supervisor: Prof.\ Dr.\ Anatoli Djanatliev).
+         Encodes automotive offer structures as feature models and translates
+         them into propositional logic to detect inconsistencies with a SAT
+         solver (Sat4j)
+   \item Selected modules (all 1.0): Programming in Java I \& II, Database Systems,
+         Software Engineering, Communication Networks, IT Security, Generative AI in Enterprises
+   \item Student Ambassador}
+
+\cventry{2015 -- 2023}{Werner-Heisenberg-Gymnasium}{Abitur}{}
+
+% ---------------------------------------------------------------------
+\cvsection{Awards \& Scholarships}
+
+\cventry{2026 -- present}{Max Weber Programme of the State of Bavaria}{}
+  {\item Merit-based scholarship for outstanding students, administered by the
+         German Academic Scholarship Foundation (Studienstiftung des deutschen Volkes)}
+
+% ---------------------------------------------------------------------
+\cvsection{Research Interests}
+
+SAT-based analysis of software dependencies and variability; combining
+formal reasoning with AI-assisted programming.
+
+% ---------------------------------------------------------------------
+\cvsection{Projects}
+
+% TODO: add once the prototype exists
+% \cventry{2026}{SAT-Based Dependency Analysis for Java (Prototype)}{}
+%   {\item Extracts service and library dependencies from Java code, encodes them
+%          as propositional constraints and checks consistency with a SAT solver}
+
+\cventry{03/2026 -- 07/2026}{MYnd Learning Platform, university team project}{}
+  {\item Platform for managing learning paths; lead developer in a team of
+         15 students, responsible for architecture and backend
+   \item Modular monolith following domain-driven design (Java, TypeScript)
+   \item Graded 1.0}
+
+\cventry{2024 -- present}{CodeCanvas, open-source learning platform}{}
+  {\item Platform for programming assignments with automated, sandboxed code
+         execution and grading
+   \item Service-based architecture (user management, task management, executor).
+         Deployed at \cvlink{https://code-canvas.app}{code-canvas.app}
+   \item Offered to students of my Java tutorials as a practice platform}
+
+% ---------------------------------------------------------------------
+\cvsection{Teaching}
+
+\cventry{2026 -- present}{Voluntary Technical Advisor, Technische Hochschule Ingolstadt}{}
+  {\item Advisor for a master's project course on building distributed systems:
+         explaining core distributed-systems concepts and supporting students
+         with implementation and debugging}
+
+\cventry{10/2024 -- 07/2025}{Tutor, Technische Hochschule Ingolstadt}{}
+  {\item Introduction to Computer Science (winter term 2024/25)
+   \item Programming in Java II (summer term 2025), including self-developed
+         practice exercises}
+
+% ---------------------------------------------------------------------
+\cvsection{Professional Experience}
+
+\cventry{01/2026 -- 03/2026}
+  {Software Engineer Intern, Volkswagen Group Digital Solutions}{Lisbon}
+  {\item Full-stack development (UI and backend) of an application for
+         analysing automotive offer structures (ELVISNG project)
+   \item Placement as part of the AUDI AG dual programme}
+
+\cventry{2023 -- present}
+  {Corporate Student (Dual Studies), AUDI AG}{Ingolstadt}
+  {\item Practical phases in vehicle project management and digitalisation}
+
+\cventry{2021 -- present}
+  {Full Stack Software Engineer (Part-time), die NetzWerkstatt}{Remote}
+  {\item Designed a plugin architecture and ETL-style pipelines for migrating
+         legacy data
+   \item Developed the tender portal for KUBUS MV
+   \item Paused 09/2023 -- 06/2024 for the dual study programme at AUDI AG}
+
+% ---------------------------------------------------------------------
+\cvsection{Other Activities}
+
+\cventry{2026}{Open-Source Contributor, KERN UX Standard}{}
+  {\item Contributed to the KERN React Kit, a component library implementing the
+         open-source UX standard for German public administration}
+
+\cventry{2025 -- present}{Board Member and Officer for Digital Affairs,
+  Junge Union Ingolstadt}{}{}
+
+% ---------------------------------------------------------------------
+\cvsection{Skills}
+
+\cvskill{Languages}{German (C2), English (C1; IELTS 8.0, \tbd{test date})}
+\cvskill{Programming}{Java, Kotlin, TypeScript, Rust, PHP, SQL}
+\cvskill{Methods}{SAT solving (Sat4j), feature modelling}
+\cvskill{Tools}{PostgreSQL, Docker, Git, \LaTeX}
+
+\end{document}
