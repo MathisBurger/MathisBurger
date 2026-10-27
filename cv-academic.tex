@@ -33,7 +33,7 @@
 \newcommand{\cvheader}[6]{%
   \begin{center}
     {\cvnamesize\bfseries #1}\\[1pt]
-    \cvlink{https://#2}{#2} $|$ \cvlink{https://#3}{#3} $|$ \cvlink{mailto:#4}{#4}\\
+    \cvlink{https://#2}{#2} $|$ \cvlink{https://#3}{#3} $|$ \cvlink{mailto:#4}{#4}\\[4pt]
     #5 $|$ #6
   \end{center}\vspace{-4pt}}
 
@@ -83,11 +83,7 @@
   {B.Sc. Business Information Systems (Wirtschaftsinformatik)}
   {\item Current average: 1.2 (German scale, 1.0 = best)
    \item Thesis (expected 01/2027): \textit{Conceptual Design and Prototyping of a Feature-Model-Based Application for Modeling and SAT-Based Verification of Offer Structures} (supervisor: Prof.\ Dr.\ Anatoli Djanatliev).
-         Encodes automotive offer structures as feature models and translates
-         them into propositional logic to detect inconsistencies with a SAT
-         solver (Sat4j)
-   \item Selected modules (all 1.0): Programming in Java I \& II, Database Systems,
-         Software Engineering, Communication Networks, IT Security, Generative AI in Enterprises
+         Encoding of automotive offer structures as feature models and translation into propositional logic for SAT-based verification.
    \item Student Ambassador}
 
 \cventry{2015 -- 2023}{Werner-Heisenberg-Gymnasium}{Abitur}{}
@@ -102,27 +98,26 @@
 % ---------------------------------------------------------------------
 \cvsection{Research Interests}
 
-SAT-based analysis of software dependencies and variability; combining
-formal reasoning with AI-assisted programming.
+SAT-based analysis of software dependencies and variability; AI-assisted programming; distributed systems
 
 % ---------------------------------------------------------------------
 \cvsection{Projects}
 
 \cventry{10/2026}{SAT-Based Deletion Analysis of Java Code, research prototype}{}
   {\item Encodes Java code dependencies as a feature model and uses SAT, MaxSAT
-         and MUS (Sat4j) to answer whether code can be deleted, and why not
+        to answer whether code can be deleted or why not
    \item Technical report with specification and worked example: \cvlink{https://github.com/MathisBurger/lbdajcd}{github.com/MathisBurger/lbdajcd}}
 
 \cventry{03/2026 -- 07/2026}{MYnd Learning Platform, university team project}{}
-  {\item Platform for managing learning paths; lead developer in a team of
-         15 students, responsible for architecture and backend
+  {\item Platform for individual learning: I was the lead developer in a team of
+         13 students, responsible for architecture and backend
    \item Modular monolith following domain-driven design (Java, TypeScript)
    \item Graded 1.0}
 
 \cventry{2024 -- present}{CodeCanvas, open-source learning platform}{}
   {\item Platform for programming assignments with automated, sandboxed code
-         execution and grading
-   \item Service-based architecture (user management, task management, executor).
+         execution and individual feedback
+   \item Service-based architecture
          Deployed at \cvlink{https://code-canvas.app}{code-canvas.app}
    \item Offered to students of my Java tutorials as a practice platform}
 
@@ -130,7 +125,7 @@ formal reasoning with AI-assisted programming.
 \cvsection{Teaching}
 
 \cventry{2026 -- present}{Voluntary Technical Advisor, Technische Hochschule Ingolstadt}{}
-  {\item Advisor for a master's project course on building distributed systems:
+  {\item Advisor for a master's project course:
          explaining core distributed-systems concepts and supporting students
          with implementation and debugging}
 
@@ -142,29 +137,30 @@ formal reasoning with AI-assisted programming.
 % ---------------------------------------------------------------------
 \cvsection{Professional Experience}
 
-\cventry{01/2026 -- 03/2026}
-  {Software Engineer Intern, Volkswagen Group Digital Solutions}{Lisbon}
-  {\item Full-stack development (UI and backend) of an application for
-         analysing automotive offer structures (ELVISNG project)
-   \item Placement as part of the AUDI AG dual programme}
-
 \cventry{2023 -- present}
   {Corporate Student (Dual Studies), AUDI AG}{Ingolstadt}
-  {\item Practical phases in vehicle project management and digitalisation}
+  {\item Practical phases in vehicle project management (including sofware complexity management) and digitalisation}
+
+\cventry{01/2026 -- 03/2026}
+  {Software Engineer Intern, Volkswagen Group Digital Solutions}{Lisbon}
+  {\item Full-stack development (backend and UI) of an application for
+         analysing automotive software variability (ELVISNG project)
+   \item Part of the Audi dual programme}
 
 \cventry{2021 -- present}
   {Full Stack Software Engineer (Part-time), die NetzWerkstatt}{Remote}
-  {\item Designed a plugin architecture and ETL-style pipelines for migrating
-         legacy data
-   \item Developed the tender portal for KUBUS MV
+  {\item ETL-style pipelines for migrating
+         legacy data.
+   \item Designed and implemented web-widget system.
+   \item Developed a web-based tender portal.
    \item Paused 09/2023 -- 06/2024 for the dual study programme at AUDI AG}
 
 % ---------------------------------------------------------------------
 \cvsection{Other Activities}
 
-\cventry{2026}{Open-Source Contributor, KERN UX Standard}{}
-  {\item Contributed to the KERN React Kit, a component library implementing the
-         open-source UX standard for German public administration}
+\cventry{2026 -- present}{Open-Source Contributor, KERN UX Standard}{}
+  {\item Contributed to the KERN React Kit, the official component library implementing the
+         KERN UX standard for German public administration}
 
 \cventry{2025 -- present}{Board Member and Officer for Digital Affairs,
   Junge Union Ingolstadt}{}{}
